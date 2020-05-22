@@ -1,0 +1,2 @@
+1. nCr
+https://practice.geeksforgeeks.org/problems/ncr/0

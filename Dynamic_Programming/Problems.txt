@@ -1,2 +1,11 @@
 1. nCr
 https://practice.geeksforgeeks.org/problems/ncr/0
+
+2. Coin Change
+https://practice.geeksforgeeks.org/problems/coin-change/0
+
+3. Gold Mine Problem
+https://practice.geeksforgeeks.org/problems/gold-mine-problem/0
+
+4. Subset Sum Problem
+https://practice.geeksforgeeks.org/problems/subset-sum-problem/0

@@ -9,3 +9,6 @@ https://practice.geeksforgeeks.org/problems/gold-mine-problem/0
 
 4. Subset Sum Problem
 https://practice.geeksforgeeks.org/problems/subset-sum-problem/0
+
+5. Nth Catlan Number
+https://practice.geeksforgeeks.org/problems/nth-catalan-number/0

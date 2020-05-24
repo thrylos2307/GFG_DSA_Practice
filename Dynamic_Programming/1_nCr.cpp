@@ -16,13 +16,13 @@ int main() {
 	     for(i=0;i<=n;i++)
 	    	memo[i][0] = 1;
 	    for(i=1;i<=r;i++)
-	    	memo[i][i] = (i*memo[i-1][i-1]) % mod;
+	    	memo[i][i] = 1;
 	   
  
 	    for(i=1;i<=r;i++){
 	    	for(j=i+1;j<=n;j++){
 	    
-	    		memo[j][i] = ((memo[j-1][i-1] *i ) + (memo[j-1][i]));
+	    		memo[j][i] = ((memo[j-1][i-1]) + (memo[j-1][i]));
 			}
 		}
 		 

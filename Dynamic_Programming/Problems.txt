@@ -12,3 +12,6 @@ https://practice.geeksforgeeks.org/problems/subset-sum-problem/0
 
 5. Nth Catlan Number
 https://practice.geeksforgeeks.org/problems/nth-catalan-number/0
+
+6. Maximize The Cut Segments
+https://practice.geeksforgeeks.org/problems/cutted-segments/0

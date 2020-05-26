@@ -15,3 +15,9 @@ https://practice.geeksforgeeks.org/problems/nth-catalan-number/0
 
 6. Maximize The Cut Segments
 https://practice.geeksforgeeks.org/problems/cutted-segments/0
+
+7. Painting the fence
+https://practice.geeksforgeeks.org/problems/painting-the-fence/0
+
+8. Longest Common Subsequence
+https://practice.geeksforgeeks.org/problems/longest-common-subsequence/0

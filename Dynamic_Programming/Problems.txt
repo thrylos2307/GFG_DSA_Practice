@@ -21,3 +21,6 @@ https://practice.geeksforgeeks.org/problems/painting-the-fence/0
 
 8. Longest Common Subsequence
 https://practice.geeksforgeeks.org/problems/longest-common-subsequence/0
+
+9. Longest Repeating Subsequence
+https://practice.geeksforgeeks.org/problems/longest-repeating-subsequence/0

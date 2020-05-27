@@ -24,3 +24,9 @@ https://practice.geeksforgeeks.org/problems/longest-common-subsequence/0
 
 9. Longest Repeating Subsequence
 https://practice.geeksforgeeks.org/problems/longest-repeating-subsequence/0
+
+10. Longest Increasing Subsequence
+https://practice.geeksforgeeks.org/problems/longest-increasing-subsequence/0
+
+11. LCS of three strings
+https://practice.geeksforgeeks.org/problems/lcs-of-three-strings/0

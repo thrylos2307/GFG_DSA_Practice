@@ -30,3 +30,12 @@ https://practice.geeksforgeeks.org/problems/longest-increasing-subsequence/0
 
 11. LCS of three strings
 https://practice.geeksforgeeks.org/problems/lcs-of-three-strings/0
+
+12. Count all subsequences having product less than K
+https://www.geeksforgeeks.org/count-subsequences-product-less-k/
+
+13. Count longest-subsequence-such-that-difference-between-adjacents-is-one
+https://practice.geeksforgeeks.org/problems/longest-subsequence-such-that-difference-between-adjacents-is-one/0
+
+14.Maximum subsequence sum such that no three are consecutive
+https://www.geeksforgeeks.org/maximum-subsequence-sum-such-that-no-three-are-consecutive/

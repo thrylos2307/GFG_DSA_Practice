@@ -1,15 +1,15 @@
 1.Binary Tree
 
-o Insertion of Node
-o Deletion of Node
-o Inorder Traversal (Recursive and Iterative)
-o Preorder Traversal (Recursive and Iterative)
-o Postorder Traversal (Recursive and Iterative)
-o Level Order Traversal
-o Reverse Level Order traversal
-o Searching of Value
-o Height of tree
-o Diameter of Tree
-o Mirror of Tree
-o Check tree is balanced or not
-o Find maximum value in tree
+	o Insertion of Node
+	o Deletion of Node
+	o Inorder Traversal (Recursive and Iterative)
+	o Preorder Traversal (Recursive and Iterative)
+	o Postorder Traversal (Recursive and Iterative)
+	o Level Order Traversal
+	o Reverse Level Order traversal
+	o Searching of Value
+	o Height of tree
+	o Diameter of Tree
+	o Mirror of Tree
+	o Check tree is balanced or not
+	o Find maximum value in tree

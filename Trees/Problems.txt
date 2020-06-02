@@ -13,3 +13,12 @@
 	o Mirror of Tree
 	o Check tree is balanced or not
 	o Find maximum value in tree
+
+1.Binary Search Tree
+
+	o Insertion into BST
+	o Deletion from BST
+	o Level order print
+	o Traversal(inorder , preorder and postorder)
+	o Searching a value in BST
+	o Check if is BST or not

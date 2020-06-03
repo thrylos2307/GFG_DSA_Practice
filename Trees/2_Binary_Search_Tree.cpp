@@ -53,6 +53,11 @@ class BinTree{
 			root->right->right->right = p;
 		}
 		
+		void inorderSucPre(int key);
+		void inorderSucPre(node* curr,int key);
+		
+		void printRtoLpath();
+		stack<int> printRtoLpath(node*,stack<int> s);
 };
 
 ///////////////////////////
@@ -249,12 +254,15 @@ bool BinTree::checkBST(node* curr,int min,int max){
 	return ( checkBST(curr->left, min, curr->data)&&checkBST(curr->right, curr->data, max) );
 }
 
-/*
-bool BinTree::checkBST(node* curr){
-	if(curr==NULL){
-		cout<<"Null"<<endl;
-		return false;
-	}
+/////////////////////////////
+//-----Inorder Suc Pre-----
+void BinTree::inorderSucPre(int key){
+	inorderSucPre(root,key);
+}
+
+void BinTree::inorderSucPre(node* curr,int key){
+	if(curr==NULL)
+		return;
 	else{
 		queue<node*> q;
 		q.push(curr);
@@ -263,32 +271,68 @@ bool BinTree::checkBST(node* curr){
 			node* temp = q.front();
 			q.pop();
 			
-			if(!temp->left && !temp->right){
-				return true;
-			}
-			else{
-				if(temp->right){
-				
-				if(temp->data > temp->right->data)
-					return false;
-				}
-				
+			if(temp->data==key)
+			{
 				if(temp->left){
 				
-				if(temp->data < temp->left->data)
-					return false;
-					
+				cout<<"Inorder predecessor: "<<temp->left->data<<endl;
 				}
-				v 
-				else if( (!checkBST(temp->left)) || (!checkBST(temp->right)) )
-					return false;
+				if(temp->right){
+					cout<<"Inorder successor: "<<temp->right->data<<endl;
+				}
+				return;
+			}
+			else{
+				if(temp->left)
+					q.push(temp->left);
+				if(temp->right)
+					q.push(temp->right);
 			}
 		}
-		return true;
+		
 	}
 }
-*/
 
+/////////////////////////////
+//---Print Root to Leaf Paths---
+
+void BinTree::printRtoLpath(){
+	stack<int> s;
+	s = printRtoLpath(root, s);
+}
+
+stack<int> BinTree::printRtoLpath(node* curr,stack<int> s){
+	if(curr==NULL)
+		return s;
+	s.push(curr->data);
+	
+	if(curr->left)
+		s = printRtoLpath(curr->left,s);
+	
+	if(curr->left==NULL && curr->right==NULL)
+	{
+		stack<int> s3(s);
+		stack<int> s2;
+		while(!s3.empty()){
+			int temp = s3.top();
+			s3.pop();
+			s2.push(temp);
+		}
+			
+		while(!s2.empty()){
+		
+			cout<<s2.top()<<" ";
+			s2.pop();}
+		
+		cout<<endl;
+	}
+	if(curr->right)
+		s = printRtoLpath(curr->right,s);
+	
+	s.pop();
+	return s;
+	
+}
 
 /////////////////////////////
 int main(){
@@ -298,17 +342,37 @@ int main(){
 	root.insert(7);
 	root.insert(10);
 	root.insert(9);
-	root.insert(9);
+//	root.insert(9);
 	root.insert(4);
 	root.insert(5);
 	root.insert(11);
-//	root.makeNonBST();
+//	root.makeNonBST();  //Will make this BST a non-BST 
+
 	root.printInorder();
 	cout<<endl;
 	root.printPreorder();
 	cout<<endl;
 	root.printPostorder();
 	cout<<endl;
+	
+	root.search(9);
+	cout<<endl;
+	root.search(2);
+	cout<<endl;
+	
+	cout<<root.checkBST();
+	cout<<endl;
+	
+	root.inorderSucPre(10);
+	cout<<endl;
+	root.inorderSucPre(8);
+	cout<<endl;
+	root.inorderSucPre(11);
+	cout<<endl;
+	
+	root.printRtoLpath();
+	cout<<endl;
+	
 	root.printLevelOrder();
 	root.del(9);
 	cout<<endl;
@@ -319,14 +383,6 @@ int main(){
 	root.del(6);
 	cout<<endl;
 	root.printLevelOrder();
-	cout<<endl;
-	root.search(9);
-	cout<<endl;
-	root.search(2);
-	cout<<endl;
-	cout<<root.checkBST();
-
-	
-	
 	return 0;
+	
 }

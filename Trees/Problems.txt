@@ -22,3 +22,5 @@
 	o Traversal(inorder , preorder and postorder)
 	o Searching a value in BST
 	o Check if is BST or not
+	o Find inorder successor and inorder predecessor
+	o Print all root node to leaf node paths

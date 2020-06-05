@@ -531,40 +531,11 @@ void Tree::delNode(int key){
 ////////////////////////////////
 
 
-map<int,int> m;
-
-void Tree::printInorderr(struct node* curr,int limit){
-	if(curr==NULL)
-		return;
-	
-	m.insert(pair<int,int>(limit,curr->data));	
-	printInorderr(curr->left,limit-1);
-	
-	
-	
-	printInorderr(curr->right,limit+1);
-}
-
-void Tree::topView(){
-	topView(root);
-}
-
-void Tree::topView(struct node *curr)
-{
-    printInorderr(curr,0);
-    
-    for(map<int,int>::iterator it=m.begin();it!=m.end();++it){
-    	cout<<it->second<<" ";
-	}
-}
-
-////////////////////////////////
-
 int main(){
 	Tree root;
 	root.insert(1);
 	root.make();
-/*	root.insert(2);
+	root.insert(2);
 	root.insert(3);
 	root.insert(4);
 	root.insert(5);
@@ -579,12 +550,12 @@ int main(){
 	root.insert(14);
 	root.insert(15);
 	root.insert(16);
-	root.insert(17);*/
+	root.insert(17);
 	
 	
-//	root.makeUnbalanced();
+	root.makeUnbalanced();
 	
-/*	root.printInorder();
+	root.printInorder();
 	cout<<endl;
 	root.printInorderIter();
 	cout<<endl;
@@ -613,11 +584,10 @@ int main(){
 	cout<<endl;
 	cout<<root.checkBalanced();
 	cout<<endl;
-	cout<<root.maxVal();*/
+	cout<<root.maxVal();
 	
 	cout<<endl;
 	root.printLevelOrder();
-	cout<<endl;
-	root.topView();
+	
 	return 0;
 }

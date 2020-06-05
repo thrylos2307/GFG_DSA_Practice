@@ -30,3 +30,6 @@ https://practice.geeksforgeeks.org/problems/top-view-of-binary-tree/1
 
 4. Bottom view of a binary tree
 https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1
+
+5. Left view of a binary tree
+https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1

@@ -69,6 +69,34 @@ class Tree{
 		root->right->right = NULL;
 		root->right->left = NULL;	
 	}
+	void make(){
+		root->left = new node();
+		root->left->data = 2;
+		
+		root->left->right = new node();
+		root->left->right->data = 4;
+		
+		root->left->right->right = new node();
+		root->left->right->right->data = 7;
+		
+		root->left->right->left = new node();
+		root->left->right->left->data = 6;
+		
+		root->right = new node();
+		root->right->data = 3;
+		
+		root->right->left = new node();
+		root->right->left->data = 5;
+		
+		root->right->left->left = new node();
+		root->right->left->left->data = 8;
+	}
+	
+	void topView();
+	void topView(struct node *root);
+	void printInorderr(struct node* curr,int limit);
+	
+	
 };
 
 //////////////////////////////////////
@@ -500,13 +528,43 @@ void Tree::delNode(node* curr, int key){
 void Tree::delNode(int key){
 	delNode(root,key);
 }
+////////////////////////////////
+
+
+map<int,int> m;
+
+void Tree::printInorderr(struct node* curr,int limit){
+	if(curr==NULL)
+		return;
+	
+	m.insert(pair<int,int>(limit,curr->data));	
+	printInorderr(curr->left,limit-1);
+	
+	
+	
+	printInorderr(curr->right,limit+1);
+}
+
+void Tree::topView(){
+	topView(root);
+}
+
+void Tree::topView(struct node *curr)
+{
+    printInorderr(curr,0);
+    
+    for(map<int,int>::iterator it=m.begin();it!=m.end();++it){
+    	cout<<it->second<<" ";
+	}
+}
 
 ////////////////////////////////
 
 int main(){
 	Tree root;
 	root.insert(1);
-	root.insert(2);
+	root.make();
+/*	root.insert(2);
 	root.insert(3);
 	root.insert(4);
 	root.insert(5);
@@ -521,10 +579,12 @@ int main(){
 	root.insert(14);
 	root.insert(15);
 	root.insert(16);
-	root.insert(17);
+	root.insert(17);*/
+	
+	
 //	root.makeUnbalanced();
 	
-	root.printInorder();
+/*	root.printInorder();
 	cout<<endl;
 	root.printInorderIter();
 	cout<<endl;
@@ -553,6 +613,11 @@ int main(){
 	cout<<endl;
 	cout<<root.checkBalanced();
 	cout<<endl;
-	cout<<root.maxVal();
+	cout<<root.maxVal();*/
+	
+	cout<<endl;
+	root.printLevelOrder();
+	cout<<endl;
+	root.topView();
 	return 0;
 }

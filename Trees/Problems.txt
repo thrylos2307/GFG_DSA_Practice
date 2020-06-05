@@ -14,7 +14,7 @@
 	o Check tree is balanced or not
 	o Find maximum value in tree
 
-1.Binary Search Tree
+2.Binary Search Tree
 
 	o Insertion into BST
 	o Deletion from BST
@@ -24,3 +24,6 @@
 	o Check if is BST or not
 	o Find inorder successor and inorder predecessor
 	o Print all root node to leaf node paths
+
+3. Top view of a binary tree
+https://practice.geeksforgeeks.org/problems/top-view-of-binary-tree/1

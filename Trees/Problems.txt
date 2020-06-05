@@ -36,3 +36,6 @@ https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1
 
 6. Right view of a binary tree
 https://practice.geeksforgeeks.org/problems/right-view-of-binary-tree/1
+
+7. Level order traversal in spiral form
+https://practice.geeksforgeeks.org/problems/level-order-traversal-in-spiral-form/1

@@ -42,3 +42,6 @@ https://practice.geeksforgeeks.org/problems/level-order-traversal-in-spiral-form
 
 8. Binary Tree to DLL
 https://practice.geeksforgeeks.org/problems/binary-tree-to-dll/1
+
+9. Transform to Sum Tree
+https://practice.geeksforgeeks.org/problems/transform-to-sum-tree/1

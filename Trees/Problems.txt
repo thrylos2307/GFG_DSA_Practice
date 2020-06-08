@@ -48,3 +48,6 @@ https://practice.geeksforgeeks.org/problems/transform-to-sum-tree/1
 
 10. Check Mirror in N-ary tree
 https://practice.geeksforgeeks.org/problems/check-mirror-in-n-ary-tree/0
+
+11. Sum of the Longest Bloodline of a Tree
+https://practice.geeksforgeeks.org/problems/sum-of-the-longest-bloodline-of-a-tree/1

@@ -1,2 +1,4 @@
 1. Binary Search on a rotated string
 https://practice.geeksforgeeks.org/problems/search-in-a-rotated-array/0
+2_ Aggressive Cows
+https://www.spoj.com/problems/AGGRCOW/

@@ -1,4 +1,8 @@
 1. Binary Search on a rotated string
 https://practice.geeksforgeeks.org/problems/search-in-a-rotated-array/0
-2_ Aggressive Cows
+
+2. Aggressive Cows
 https://www.spoj.com/problems/AGGRCOW/
+
+3. Allocate minimum number of pages
+https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages/0 

@@ -6,3 +6,6 @@ https://www.spoj.com/problems/AGGRCOW/
 
 3. Allocate minimum number of pages
 https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages/0 
+
+4. Weighted Job Scheduling in O(n Log n) time
+https://www.geeksforgeeks.org/weighted-job-scheduling-log-n-time/

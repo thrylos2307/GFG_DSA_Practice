@@ -15,3 +15,6 @@ https://www.geeksforgeeks.org/find-missing-number-arithmetic-progression/
 
 6. Smallest factorial number
 https://practice.geeksforgeeks.org/problems/smallest-factorial-number/0
+
+7. The Painter's Partition Problem
+https://practice.geeksforgeeks.org/problems/the-painters-partition-problem/0/

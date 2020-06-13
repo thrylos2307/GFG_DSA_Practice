@@ -21,3 +21,6 @@ https://practice.geeksforgeeks.org/problems/the-painters-partition-problem/0/
 
 8. PRATA - Roti Prata
 https://www.spoj.com/problems/PRATA/
+
+8. The Double HeLiX
+https://www.spoj.com/problems/ANARC05B/

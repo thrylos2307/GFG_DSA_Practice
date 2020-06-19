@@ -3,3 +3,9 @@ https://practice.geeksforgeeks.org/problems/print-adjacency-list/0
 
 2. BFS of graph
 https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1
+
+3. Cycle Detection in Directed Graph
+https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1
+
+4. Cycle Detection in Undirected Graph
+https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1

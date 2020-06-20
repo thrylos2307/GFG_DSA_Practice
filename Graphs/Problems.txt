@@ -9,3 +9,6 @@ https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1
 
 4. Cycle Detection in Undirected Graph
 https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1
+
+5. Shortest path in an unweighted graph
+https://www.geeksforgeeks.org/shortest-path-unweighted-graph/

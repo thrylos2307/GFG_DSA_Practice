@@ -34,8 +34,23 @@ public:
 			for(vector<int>::iterator x = adj[temp].begin(); x!=adj[temp].end();x++)
 			{
 				if(s.find(*x)==s.end()){
-					if(*x==dest)
+					if(*x==dest){
+						pred[*x] = temp;
+						stack<int> path;
+						path.push(*x);
+						
+						while(path.top()!=root){
+							int pre = path.top();
+							path.push(pred[pre]);
+						}
+						cout<<"Path: ";
+						while(!path.empty()){
+						
+							cout<<" -> "<<path.top();
+							path.pop();}	
+							
 						return (dist[temp]+1);
+					}
 					q.push(*x);
 					s.insert(*x);
 					dist[*x] = dist[temp] + 1;
@@ -64,7 +79,7 @@ int main(){
 		int dest;
 		cout<<"\nEnter sourse and destination respectively\n";
 		cin>>src>>dest;
-		cout<<g.shortestDist(src, dest)<<endl;	
+		cout<<"\nDist: "<<g.shortestDist(src, dest)<<endl;	
 	
 	
 	}	

@@ -18,3 +18,6 @@ https://practice.geeksforgeeks.org/problems/steps-by-knight/0
 
 7. Minimum number of jumps
 https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps/0
+
+8. Find the number of islands
+https://practice.geeksforgeeks.org/problems/find-the-number-of-islands/1

@@ -12,3 +12,6 @@ https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/
 
 5. Shortest path in an unweighted graph
 https://www.geeksforgeeks.org/shortest-path-unweighted-graph/
+
+6. Minimum steps to reach target by a knight
+https://practice.geeksforgeeks.org/problems/steps-by-knight/0
